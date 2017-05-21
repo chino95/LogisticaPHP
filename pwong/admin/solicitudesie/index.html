@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta charset="utf-8" />
+  <title>Clientes | Logistica Balderrama</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+  <link rel="apple-touch-icon" href="pages/ico/60.png">
+  <link rel="stylesheet" type="text/css" href="../../assets/plugins/jquery-notific8/jquery.notific8.min.css" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../../pages/ico/76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../pages/ico/120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../pages/ico/152.png">
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta content="" name="description" />
+  <meta content="" name="author" />
+  <link href="../../assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" />
+  <link href="../../assets/plugins/boostrapv3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="../../assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+  <link href="../../assets/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="../../assets/plugins/bootstrap-select2/select2.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="../../assets/plugins/switchery/css/switchery.min.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="../../assets/bootstrap2-toggle.min.css" rel="stylesheet" type="text/css" media="screen" />
+  <link href="../../assets/plugins/jquery-datatable/media/css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../../assets/plugins/jquery-datatable/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" rel="stylesheet" type="text/css">
+  <link href="../../assets/plugins/datatables-responsive/css/datatables.responsive.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="../../pages/css/pages-icons.css" rel="stylesheet" type="text/css">
+  <link class="main-stylesheet" href="../../pages/css/pages.css" rel="stylesheet" type="text/css" />
+  <link href="../../assets/plugins/dropzone/css/dropzone.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="stylesheet" href="../../assets/p/dropzone.css">
+    <!--[if lte IE 9]>
+  <link href="assets/plugins/codrops-dialogFx/dialog.ie.css" rel="stylesheet" type="text/css" media="screen" />
+  <![endif]-->
+</head>
+
+<body class="fixed-header ">
+  <!-- BEGIN SIDEBPANEL-->
+  <nav class="page-sidebar" data-pages="sidebar">
+    <!-- BEGIN SIDEBAR MENU TOP TRAY CONTENT-->
+    <!-- END SIDEBAR MENU TOP TRAY CONTENT-->
+    <!-- BEGIN SIDEBAR MENU HEADER-->
+    <div class="sidebar-header">
+     <img src="../../images/logo1.png" alt="logo" class="brand" data-src="../../images/logo1.png" data-src-retina="../../images/logo1.png" width="90" height="70">
+     <div class="sidebar-header-controls">
+      <button type="button" class="btn btn-link visible-lg-inline" data-toggle-pin="sidebar"><i class="fa fs-12"></i>
+      </button>
+    </div>
+  </div>
+  <!-- END SIDEBAR MENU HEADER-->
+  <!-- START SIDEBAR MENU -->
+  <div class="sidebar-menu">
+    <!-- BEGIN SIDEBAR MENU ITEMS-->
+    <ul class="menu-items">
+      <li class="m-t-30 ">
+        <a href="../clientes/" class="detailed">
+          <span class="title">Clientes</span>
+          <span class="details">Control de clientes</span>
+        </a>
+        <span class="bg-success icon-thumbnail"><i class="fa fa-users"></i></span>
+      </li>
+      <li class="m-t-0 ">
+        <a href="../usuarios/" class="detailed">
+          <span class="title">Usuarios</span>
+          <span class="details">Control de usuarios</span>
+        </a>
+        <span class="bg-success icon-thumbnail"><i class="fa fa-user"></i></span>
+      </li>
+      <li class="m-t-0 ">
+        <a href="../solicitarie" class="detailed">
+          <span class="title">Solicitar</span>
+          <span class="details">Importacion o Exportacion</span>
+        </a>
+        <span class="bg-success icon-thumbnail"><i class="fa fa-user"></i></span>
+      </li>
+      <li class="m-t-0 ">
+        <a href="../solicitudesie" class="detailed">
+          <span class="title">Solicitudes</span>
+          <span class="details">Importacion o Exportacion</span>
+        </a>
+        <span class="bg-success icon-thumbnail"><i class="fa fa-users"></i></span>
+      </li>
+      <li class="m-t-0 ">
+        <a href="../vehiculos/" class="detailed">
+          <span class="title">Vehiculos</span>
+          <span class="details">Control de vehiculos</span>
+        </a>
+        <span class="bg-success icon-thumbnail"><i class="fa fa-truck"></i></span>
+      </li>
+      <li class="m-t-0 ">
+        <a href="../empleados/" class="detailed">
+          <span class="title">Empleados</span>
+          <span class="details">Control de empleados</span>
+        </a>
+        <span class="bg-success icon-thumbnail"><i class="fa fa-users"></i></span>
+      </li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+  <!-- END SIDEBAR MENU -->
+</nav>
+<!-- END SIDEBAR -->
+<!-- END SIDEBPANEL-->
+<!-- START PAGE-CONTAINER -->
+<div class="page-container ">
+  <!-- START HEADER -->
+  <div class="header ">
+    <!-- START MOBILE CONTROLS -->
+    <div class="container-fluid relative">
+      <!-- LEFT SIDE -->
+      <div class="pull-left full-height visible-sm visible-xs">
+        <!-- START ACTION BAR -->
+        <div class="header-inner">
+          <a href="#" class="btn-link toggle-sidebar visible-sm-inline-block visible-xs-inline-block padding-5" data-toggle="sidebar">
+            <span class="icon-set menu-hambuger"></span>
+          </a>
+        </div>
+        <!-- END ACTION BAR -->
+      </div>
+      <!-- RIGHT SIDE -->
+      <div class="pull-right full-height visible-sm visible-xs">
+        <!-- START ACTION BAR -->
+        <div class="header-inner">
+          <a href="#" class="btn-link visible-sm-inline-block visible-xs-inline-block" data-toggle="quickview" data-toggle-element="#quickview">
+            <span class="icon-set menu-hambuger-plus"></span>
+          </a>
+        </div>
+        <!-- END ACTION BAR -->
+      </div>
+    </div>
+    <!-- END MOBILE CONTROLS -->
+    <div class=" pull-left sm-table hidden-xs hidden-sm">
+      <div class="header-inner">
+        <div class="brand inline">
+          <img src="../../images/logo1.png" alt="logo" data-src="../../images/logo1.png" data-src-retina="../../images/logo1.png" width="120" height="70">
+        </div>
+        <!-- START NOTIFICATION LIST -->
+        <!-- END NOTIFICATIONS LIST -->
+      </div>
+    </div>
+    <div class=" pull-right">
+      <!-- START User Info-->
+      <div class="visible-lg visible-md m-t-10">
+        <div class="pull-left p-r-10 p-t-10 fs-16 font-heading">
+          <span class="semi-bold" id="usuario"></span>
+        </div>
+        <div class="dropdown pull-right">
+          <button class="profile-dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="thumbnail-wrapper d32 circular inline m-t-5"><i class="fa fa-user"></i>
+            </span>
+          </button>
+          <ul class="dropdown-menu profile-dropdown" role="menu">
+            <li class="bg-master-lighter">
+              <a href="#" class="clearfix" id="btnsalir">
+                <span class="pull-left" >Salir</span>
+                <span class="pull-right"><i class="pg-power"></i></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END User Info-->
+    </div>
+  </div>
+  <!-- END HEADER -->
+  <!-- START PAGE CONTENT WRAPPER -->
+  <div class="page-content-wrapper ">
+    <!-- START PAGE CONTENT -->
+    <div class="content ">
+
+     <div id="modalmodificar" class="modal fade slide-up disable-scroll" tabindex="-1" role="dialog" aria-hidden="false">
+      <div class="modal-dialog " style="z-index: 1041">
+        <div class="modal-content-wrapper">
+          <div class="modal-content">
+            <div class="modal-header clearfix text-left">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="pg-close fs-14"></i>
+              </button>
+              <h5>Modificar usuario</h5>
+            </div>
+            <div class="modal-body">
+              <form role="form">
+                <div class="form-group-attached">
+                  <div class="row">
+                    <div class="form-group  col-md-4">
+                      <div class="form-group form-md-line-input form-md-floating-label ">
+                        <input type="text" id="nombre" name="modnombre" class="form-control control" required >
+                        <label for="form_control_1">Nombre</label>
+                      </div>
+                    </div>
+                    <div class="form-group  col-md-4">
+                      <div class="form-group form-md-line-input form-md-floating-label ">
+                        <input type="text" id="ape" name="modape" class="form-control control" required>
+                        <label for="form_control_1">Apellido</label>
+                      </div>
+                    </div>
+                    <div class="form-group  col-md-4">
+                      <div class="form-group form-md-line-input form-md-floating-label ">
+                        <input type="text" id="emp" name="modemp" class="form-control control" required>
+                        <label for="form_control_1">Nombre de la empresa</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group  col-md-4">
+                      <div class="form-group form-md-line-input form-md-floating-label ">
+                        <input type="text" id="dire" name="moddire" class="form-control control" required >
+                        <label for="form_control_1">Direccion</label>
+                      </div>
+                    </div>
+                    <div class="form-group  col-md-4">
+                      <div class="form-group form-md-line-input form-md-floating-label ">
+                        <input type="text" id="tel" name="modtel" class="form-control control" required>
+                        <label for="form_control_1">Telefono</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                     <div class="form-group form-group-default "> 
+                      <label>CTPAT</label>
+                      <div class="col-sm-2">
+                        <label>No</label>
+                      </div>
+                      <div class="col-sm-4">
+                        <input type="checkbox" id="ctpat" data-init-plugin="switchery" checked="checked" />
+                      </div>
+                      <div class="col-sm-4">
+                        <label>Si</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group  col-md-4">
+                    <div class="form-group form-md-line-input form-md-floating-label ">
+                      <input type="email" id="correo" name="modcorreo" class="form-control control" required >
+                      <label for="form_control_1">Correo electrónico</label>
+                    </div>
+                  </div>
+                  <div class="form-group  col-md-4">
+                    <div class="form-group form-md-line-input form-md-floating-label ">
+                      <input type="password" id="password" name="modpassword" class="form-control control" required>
+                      <label for="form_control_1">Contraseña</label>
+                    </div>
+                  </div>
+                  <div class="form-group  col-md-4">
+                    <div class="form-group form-md-line-input form-md-floating-label ">
+                      <input type="password" id="rpassword" name="modrpassword" class="form-control control" required>
+                      <label for="form_control_1">Repetir contraseña</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="row">
+              <div class="col-sm-4 m-t-10 sm-m-t-10">
+                <button type="submit" id="btnmodificar" class="btn btn-primary btn-block m-t-5">Modificar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  </div>
+  <!-- START JUMBOTRON -->
+  <div class="jumbotron" data-pages="parallax">
+    <div class="container-fluid container-fixed-lg sm-p-l-20 sm-p-r-20">
+      <div class="inner">
+        <!-- START BREADCRUMB -->
+        <ul class="breadcrumb">
+          <li>
+            <p>Clientes</p>
+          </li>
+          <li><a href="#" class="active">Registrar clientes</a>
+          </li>
+        </ul>
+        <!-- END BREADCRUMB -->
+      </div>
+    </div>
+  </div>
+  <!-- END JUMBOTRON -->
+  <!-- START CONTAINER FLUID -->
+    <!-- <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">Administración de clientes
+        </div>
+        <div class="tools">
+          <a href="javascript:;" class="collapse"></a>
+          <a href="#grid-config" data-toggle="modal" class="config"></a>
+          <a href="javascript:;" class="reload"></a>
+          <a href="javascript:;" class="remove"></a>
+        </div>
+      </div>
+      <div class="panel-body">
+       <form class="formmodal">
+        <div class="row">
+          <div class="form-group  col-md-4">
+            <div class="form-group form-md-line-input form-md-floating-label ">
+              <input type="text" id="nombre" name="modnombre" class="form-control control" required >
+              <label for="form_control_1">Nombre</label>
+            </div>
+          </div>
+          <div class="form-group  col-md-4">
+            <div class="form-group form-md-line-input form-md-floating-label ">
+              <input type="text" id="ape" name="modape" class="form-control control" required>
+              <label for="form_control_1">Apellido</label>
+            </div>
+          </div>
+          <div class="form-group  col-md-4">
+            <div class="form-group form-md-line-input form-md-floating-label ">
+              <input type="text" id="emp" name="modemp" class="form-control control" required>
+              <label for="form_control_1">Nombre de la empresa</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group  col-md-4">
+            <div class="form-group form-md-line-input form-md-floating-label ">
+              <input type="text" id="dire" name="moddire" class="form-control control" required >
+              <label for="form_control_1">Direccion</label>
+            </div>
+          </div>
+          <div class="form-group  col-md-4">
+            <div class="form-group form-md-line-input form-md-floating-label ">
+              <input type="text" id="tel" name="modtel" class="form-control control" required>
+              <label for="form_control_1">Telefono</label>
+            </div>
+          </div>
+          <div class="col-sm-4">
+           <div class="form-group form-group-default"> 
+            <label>CTPAT</label>
+            <div class="col-sm-4">
+              <label>No</label>
+            </div>
+            <div class="col-sm-3">
+              <input type="checkbox" id="ctpat" data-init-plugin="switchery" checked="checked" />
+            </div>
+            <div class="col-sm-3">
+              <label>Si</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group  col-md-4">
+          <div class="form-group form-md-line-input form-md-floating-label ">
+            <input type="email" id="correo" name="modcorreo" class="form-control control" required >
+            <label for="form_control_1">Correo electrónico</label>
+          </div>
+        </div>
+        <div class="form-group  col-md-4">
+          <div class="form-group form-md-line-input form-md-floating-label ">
+            <input type="password" id="password" name="modpassword" class="form-control control" required>
+            <label for="form_control_1">Contraseña</label>
+          </div>
+        </div>
+        <div class="form-group  col-md-4">
+          <div class="form-group form-md-line-input form-md-floating-label ">
+            <input type="password" id="rpassword" name="modrpassword" class="form-control control" required>
+            <label for="form_control_1">Repetir contraseña</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" id="btncancelar" data-dismiss="modal" class="btn btn-primary btn-cons m-t-10" type="button">Cancelar</button>
+      <button type="submit" id="modbtnregistrar" class="btn btn-primary btn-cons m-t-10" type="button">Crear cuenta</button>
+    </div>
+  </form> 
+</div>
+</div> -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="panel-title">Tabla de servicios solitados
+    </div>
+    <div class="tools">
+      <a href="javascript:;" class="collapse"></a>
+      <a href="#grid-config" data-toggle="modal" class="config"></a>
+      <a href="javascript:;" class="reload"></a>
+      <a href="javascript:;" class="remove"></a>
+    </div>
+  </div>
+  <div class="panel-body">
+    <table id="tservicios" class="table table-responsive table-hover table-stripped"></table>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- END PAGE CONTENT -->
+</div>
+<!-- END PAGE CONTENT WRAPPER -->
+</div>
+<!-- END PAGE CONTAINER -->
+<!-- START OVERLAY -->
+<!-- BEGIN Overlay Content !-->
+<!-- END OVERLAY -->
+<!-- BEGIN VENDOR JS -->
+<script src="../../assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/modernizr.custom.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/boostrapv3/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery/jquery-easy.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery-bez/jquery.bez.min.js"></script>
+<script src="../../assets/plugins/jquery-ios-list/jquery.ioslist.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/datatables/datatables.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery-datatable/media/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery-datatable/extensions/TableTools/js/dataTables.tableTools.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery-datatable/media/js/dataTables.bootstrap.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery-datatable/extensions/Bootstrap/jquery-datatable-bootstrap.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../assets/plugins/datatables-responsive/js/datatables.responsive.js"></script>
+<script type="text/javascript" src="../../assets/plugins/datatables-responsive/js/lodash.min.js"></script>
+<script src="../../assets/plugins/jquery-actual/jquery.actual.min.js"></script>
+<script src="../../assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script type="text/javascript" src="../../assets/plugins/bootstrap-select2/select2.min.js"></script>
+<script type="text/javascript" src="../../assets/plugins/classie/classie.js"></script>
+<script src="../../assets/plugins/switchery/js/switchery.min.js" type="text/javascript"></script>
+<script src="../../assets/jquery.bootstrap.wizard.js"></script>
+<script src="../../assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="../../assets/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="../../assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="../../assets/plugins/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
+<script src="../../assets/bootstrap2-toggle.min.js"></script>
+<script src="../../assets/p/dropzone.min.js"></script>
+<script src="../../assets/plugins/jquery-notific8/jquery.notific8.min.js"></script>
+<!-- END VENDOR JS -->
+<!-- BEGIN CORE TEMPLATE JS -->
+<script src="../../pages/js/pages.min.js"></script>
+<!-- END CORE TEMPLATE JS -->
+<!-- BEGIN PAGE LEVEL JS -->
+<script src="../../assets/js/scripts.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL JS -->
+<script src="../permisos/basicstructure.js" type="text/javascript"></script>
+<script src="../../assets/js/datatables.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+/*
+
+* Override Pages default styles or create your own styles here
+
+*/
+footer .widget_tweets ul li a {
+    color: #12a0b1;
+}
+
+footer .widget_tweets ul li a:hover {
+    color: #12a0b1;
+}
+
+footer .twitter-feedback i.fa {
+    color: #12A0B1;
+}
+
+footer .twitter-feedback a.date {
+    font-weight: 600;
+    color: #797a7c;
+    font-size: 0.75em;
+    margin-top: -9px;
+    display: block;
+    transition: all .3s ease;
+}
+
+footer .twitter-feedback p {
+    margin-bottom: 15px;
+    padding: 0;
+}
